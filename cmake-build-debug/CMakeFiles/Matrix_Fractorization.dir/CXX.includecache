@@ -12,7 +12,7 @@ math.h
 stdio.h
 -
 
-/Users/yuxiao/ClionProjects/Matrix_Fractorization/MyHouseHold.cpp
+/Users/yuxiao/ClionProjects/Matrix_Fractorization/MyGivens.cpp
 math.h
 -
 stdio.h
@@ -29,6 +29,8 @@ string
 -
 vector
 -
+
+/Users/yuxiao/ClionProjects/Matrix_Fractorization/MyHouseHold.cpp
 
 /Users/yuxiao/ClionProjects/Matrix_Fractorization/Test1.cpp
 

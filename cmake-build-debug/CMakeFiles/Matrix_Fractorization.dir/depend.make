@@ -3,6 +3,8 @@
 
 CMakeFiles/Matrix_Fractorization.dir/HouseHold.cpp.o: ../HouseHold.cpp
 
+CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.o: ../MyGivens.cpp
+
 CMakeFiles/Matrix_Fractorization.dir/MyHouseHold.cpp.o: ../MyHouseHold.cpp
 
 CMakeFiles/Matrix_Fractorization.dir/Test1.cpp.o: ../Test1.cpp

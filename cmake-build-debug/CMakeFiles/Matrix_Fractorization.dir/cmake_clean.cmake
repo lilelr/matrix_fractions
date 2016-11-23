@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Matrix_Fractorization.dir/HouseHold.cpp.o"
   "CMakeFiles/Matrix_Fractorization.dir/MyHouseHold.cpp.o"
   "CMakeFiles/Matrix_Fractorization.dir/Test1.cpp.o"
+  "CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.o"
   "Matrix_Fractorization.pdb"
   "Matrix_Fractorization"
 )

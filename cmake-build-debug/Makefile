@@ -150,6 +150,33 @@ HouseHold.cpp.s:
 	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/HouseHold.cpp.s
 .PHONY : HouseHold.cpp.s
 
+MyGivens.o: MyGivens.cpp.o
+
+.PHONY : MyGivens.o
+
+# target to build an object file
+MyGivens.cpp.o:
+	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.o
+.PHONY : MyGivens.cpp.o
+
+MyGivens.i: MyGivens.cpp.i
+
+.PHONY : MyGivens.i
+
+# target to preprocess a source file
+MyGivens.cpp.i:
+	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.i
+.PHONY : MyGivens.cpp.i
+
+MyGivens.s: MyGivens.cpp.s
+
+.PHONY : MyGivens.s
+
+# target to generate assembly for a file
+MyGivens.cpp.s:
+	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.s
+.PHONY : MyGivens.cpp.s
+
 MyHouseHold.o: MyHouseHold.cpp.o
 
 .PHONY : MyHouseHold.o
@@ -243,6 +270,9 @@ help:
 	@echo "... HouseHold.o"
 	@echo "... HouseHold.i"
 	@echo "... HouseHold.s"
+	@echo "... MyGivens.o"
+	@echo "... MyGivens.i"
+	@echo "... MyGivens.s"
 	@echo "... MyHouseHold.o"
 	@echo "... MyHouseHold.i"
 	@echo "... MyHouseHold.s"

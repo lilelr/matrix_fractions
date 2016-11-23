@@ -85,6 +85,9 @@
 		<Unit filename="/Users/yuxiao/ClionProjects/Matrix_Fractorization/HouseHold.cpp">
 			<Option target="Matrix_Fractorization"/>
 		</Unit>
+		<Unit filename="/Users/yuxiao/ClionProjects/Matrix_Fractorization/MyGivens.cpp">
+			<Option target="Matrix_Fractorization"/>
+		</Unit>
 		<Unit filename="/Users/yuxiao/ClionProjects/Matrix_Fractorization/MyHouseHold.cpp">
 			<Option target="Matrix_Fractorization"/>
 		</Unit>
