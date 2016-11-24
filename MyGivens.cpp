@@ -10,7 +10,7 @@
 
 using namespace std;
 #define LL long long
-const int maxn = 3;
+const int maxn = 5;
 int a_m, a_n;
 
 void print_m(double a[maxn][maxn]) {
