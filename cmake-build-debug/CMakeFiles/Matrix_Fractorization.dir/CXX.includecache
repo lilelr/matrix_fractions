@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/yuxiao/ClionProjects/Matrix_Fractorization/HouseHold.cpp
-math.h
--
-stdio.h
--
-
-/Users/yuxiao/ClionProjects/Matrix_Fractorization/MyGivens.cpp
-
-/Users/yuxiao/ClionProjects/Matrix_Fractorization/MyHouseHold.cpp
-
-/Users/yuxiao/ClionProjects/Matrix_Fractorization/Test1.cpp
-
 /Users/yuxiao/ClionProjects/Matrix_Fractorization/main.cpp
 algorithm
 -

@@ -123,114 +123,6 @@ Matrix_Fractorization/fast:
 	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/build
 .PHONY : Matrix_Fractorization/fast
 
-HouseHold.o: HouseHold.cpp.o
-
-.PHONY : HouseHold.o
-
-# target to build an object file
-HouseHold.cpp.o:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/HouseHold.cpp.o
-.PHONY : HouseHold.cpp.o
-
-HouseHold.i: HouseHold.cpp.i
-
-.PHONY : HouseHold.i
-
-# target to preprocess a source file
-HouseHold.cpp.i:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/HouseHold.cpp.i
-.PHONY : HouseHold.cpp.i
-
-HouseHold.s: HouseHold.cpp.s
-
-.PHONY : HouseHold.s
-
-# target to generate assembly for a file
-HouseHold.cpp.s:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/HouseHold.cpp.s
-.PHONY : HouseHold.cpp.s
-
-MyGivens.o: MyGivens.cpp.o
-
-.PHONY : MyGivens.o
-
-# target to build an object file
-MyGivens.cpp.o:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.o
-.PHONY : MyGivens.cpp.o
-
-MyGivens.i: MyGivens.cpp.i
-
-.PHONY : MyGivens.i
-
-# target to preprocess a source file
-MyGivens.cpp.i:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.i
-.PHONY : MyGivens.cpp.i
-
-MyGivens.s: MyGivens.cpp.s
-
-.PHONY : MyGivens.s
-
-# target to generate assembly for a file
-MyGivens.cpp.s:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyGivens.cpp.s
-.PHONY : MyGivens.cpp.s
-
-MyHouseHold.o: MyHouseHold.cpp.o
-
-.PHONY : MyHouseHold.o
-
-# target to build an object file
-MyHouseHold.cpp.o:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyHouseHold.cpp.o
-.PHONY : MyHouseHold.cpp.o
-
-MyHouseHold.i: MyHouseHold.cpp.i
-
-.PHONY : MyHouseHold.i
-
-# target to preprocess a source file
-MyHouseHold.cpp.i:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyHouseHold.cpp.i
-.PHONY : MyHouseHold.cpp.i
-
-MyHouseHold.s: MyHouseHold.cpp.s
-
-.PHONY : MyHouseHold.s
-
-# target to generate assembly for a file
-MyHouseHold.cpp.s:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/MyHouseHold.cpp.s
-.PHONY : MyHouseHold.cpp.s
-
-Test1.o: Test1.cpp.o
-
-.PHONY : Test1.o
-
-# target to build an object file
-Test1.cpp.o:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/Test1.cpp.o
-.PHONY : Test1.cpp.o
-
-Test1.i: Test1.cpp.i
-
-.PHONY : Test1.i
-
-# target to preprocess a source file
-Test1.cpp.i:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/Test1.cpp.i
-.PHONY : Test1.cpp.i
-
-Test1.s: Test1.cpp.s
-
-.PHONY : Test1.s
-
-# target to generate assembly for a file
-Test1.cpp.s:
-	$(MAKE) -f CMakeFiles/Matrix_Fractorization.dir/build.make CMakeFiles/Matrix_Fractorization.dir/Test1.cpp.s
-.PHONY : Test1.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -267,18 +159,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Matrix_Fractorization"
-	@echo "... HouseHold.o"
-	@echo "... HouseHold.i"
-	@echo "... HouseHold.s"
-	@echo "... MyGivens.o"
-	@echo "... MyGivens.i"
-	@echo "... MyGivens.s"
-	@echo "... MyHouseHold.o"
-	@echo "... MyHouseHold.i"
-	@echo "... MyHouseHold.s"
-	@echo "... Test1.o"
-	@echo "... Test1.i"
-	@echo "... Test1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

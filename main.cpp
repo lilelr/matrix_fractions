@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  Matrix_LU
+//  Matrix_Fracorization
 //
-//  Created by YuXiao on 10/4/16.
+//  Created by YuXiao
 //  Copyright © 2016 YuXiao. All rights reserved.
 //
 #include <algorithm>
@@ -58,6 +58,8 @@ void interchange(int i) {
     return;
 }
 
+// LU 分解程序入口
+// haha
 void LU() {
     cout << "矩阵LU 分解开始，所输入方阵维数不能超过" << maxn << "维--------------------" << endl;
     cout << "请输入方阵的维数？" << endl;
@@ -182,7 +184,7 @@ double inner_product(vector<double> a, vector<double> b, int n) {
     return product;
 }
 
-// 施密特正交分解
+// 施密特正交分解程序入口
 void Schmidt() {
     cout << "-----------------------施密特正交分解，所输入矩阵维数不能超过" << maxn << "维-------------------" << endl;
     cout << "请输入待处理矩阵A的维数(m行n列,以空格分开)？" << endl;
@@ -273,7 +275,7 @@ void Schmidt() {
 // 施密特正交分解代码结束————————————————
 
 // HouseHold 分解代码开始---------------
-int a_m, a_n;
+int a_m, a_n;// 记录输入矩阵的维数
 
 void print_m(double a[maxn][maxn]) {
     cout << "测试" << endl;
@@ -327,6 +329,7 @@ void copy(double ta[maxn][maxn], int m, int n, double tb[maxn][maxn]) {
     }
 }
 
+// houseHolder 分解迭代过程
 void householder(double A[maxn][maxn], int k, double Q[maxn][maxn]) {
     double u[maxn] = {0};
     for (int i = 0; i < k; ++i) {
@@ -354,12 +357,16 @@ void householder(double A[maxn][maxn], int k, double Q[maxn][maxn]) {
     double temp[maxn][maxn] = {0};
     multiply(H, a_m, a_m, A, a_m, a_n, temp);
 
+    //求每一步迭代后的新的R矩阵
     copy(temp, a_m, a_n, A);
+
+    //求每一步迭代后的新的Q矩阵
     double temp2[maxn][maxn] = {0};
     multiply(H, a_m, a_m, Q, a_m, a_m, temp2);
     copy(temp2, a_m, a_m, Q);
 }
 
+// HouseHold 分解程序入口
 void houseHold_main() {
 //    freopen("/Users/yuxiao/ClionProjects/Matrix_Fractorization/in", "r", stdin);
 //    freopen("/Users/yuxiao/ClionProjects/Matrix_Fractorization/out", "w", stdout);
@@ -405,6 +412,7 @@ void houseHold_main() {
     } else {
         cyl = a_n;
     }
+    //houselder 迭代开始
     for (int k = 0; k < cyl; ++k) {
         householder(A, k, Q);
     }
@@ -448,6 +456,7 @@ void copy_vector(double a[maxn], int m, double b[maxn]) {
     }
 }
 
+// givens 分解迭代过程
 void givens(double A[maxn][maxn], int k, double Q[maxn][maxn]) {
     double u[maxn] = {0};
     double v[maxn] = {0};
@@ -497,12 +506,13 @@ void givens(double A[maxn][maxn], int k, double Q[maxn][maxn]) {
     multiply(T, a_m, a_m, Q, a_m, a_m, temp);
     copy(temp, a_m, a_m, Q);
 
-    //计算新的A矩阵
+    //计算新的R矩阵
     double temp2[maxn][maxn] = {0};
     multiply(T, a_m, a_m, A, a_m, a_n, temp2);
     copy(temp2, a_m, a_n, A);
 }
 
+// givens 分解程序入口
 void givens_main() {
 //    freopen("/Users/yuxiao/ClionProjects/Matrix_Fractorization/in", "r", stdin);
 //    freopen("/Users/yuxiao/ClionProjects/Matrix_Fractorization/out", "w", stdout);
@@ -596,6 +606,5 @@ int main() {
         }
         cout<<"\n请继续选择分解算法，输入1：LU分解，2：施密特正交分解，3：HouseHold分解，4：Givens分解，0：结束"<<endl;
     }
-
     return 0;
 }
